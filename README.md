@@ -1,8 +1,10 @@
 ## Vebu
 ```
-bash ./models/download-ggml-model.sh base.en
-make command
-./command -m ./models/ggml-small.en.bin #To run voice transcriber
+#for setup 
+./setup_whisper_command.sh
+
+#for running whisper
+./start_command.sh
 ```
 
 # whisper.cpp
