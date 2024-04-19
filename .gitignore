@@ -6,8 +6,10 @@
 .vs/
 .vscode/
 .DS_Store
+.vimspector.json
 
 build/
+build-coreml/
 build-em/
 build-debug/
 build-release/
@@ -18,6 +20,11 @@ build-no-accel/
 build-sanitize-addr/
 build-sanitize-thread/
 
+# SPM
+.build/
+.swiftpm
+*.metallib
+
 /main
 /stream
 /command
@@ -25,6 +32,7 @@ build-sanitize-thread/
 /talk-llama
 /bench
 /quantize
+/server
 /lsp
 
 arm_neon.h
@@ -48,3 +56,7 @@ bindings/java/.idea/
 .idea/
 
 benchmark_results.csv
+cmake-build-debug/
+.cxx/
+.gradle/
+local.properties
